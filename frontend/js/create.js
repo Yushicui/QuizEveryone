@@ -7,6 +7,7 @@ const create = (function () {
   if (quizId) {
     getQuiz(quizId);
     document.getElementById("submit").style.display = "none";
+    // consider using createQuizButton instead of submit to make the variable names even more descriptive.
   } else {
     document.getElementById("jump").style.display = "none";
     document.getElementById("delete").style.display = "none";
